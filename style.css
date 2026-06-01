@@ -1,0 +1,145 @@
+/* ============================================
+   style.css – FanFest Copa 2026 SENAC RJ
+   Curso de Front-End SENAC RJ
+   ============================================ */
+
+/* ---------- VARIÁVEIS DE COR ---------- */
+:root {
+  --verde:    #009C3B;
+  --amarelo:  #FFDF00;
+  --azul:     #002776;
+}
+
+/* ---------- GERAL ---------- */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* ---------- NAVBAR ---------- */
+.navbar-custom {
+  background-color: var(--azul);
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-link {
+  color: var(--amarelo) !important;
+  font-weight: 600;
+}
+
+.navbar-custom .nav-link:hover {
+  color: white !important;
+}
+
+
+/* ---------- BOTÕES ---------- */
+.btn-inscricao {
+  background: var(--amarelo);
+  color: var(--azul);
+  font-weight: 700;
+  border: none;
+  padding: 14px 36px;
+  font-size: 1.1rem;
+  border-radius: 6px;
+}
+
+.btn-inscricao:hover {
+  background: #e6c800;
+  color: var(--azul);
+}
+
+.btn-verde {
+  background: var(--verde);
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+.btn-verde:hover {
+  background: #007a2e;
+  color: white;
+}
+
+/* ---------- TÍTULOS DE SEÇÃO ---------- */
+.section-title {
+  color: var(--azul);
+  font-weight: 700;
+  font-size: 1.8rem;
+  position: relative;
+  display: inline-block;
+}
+
+.section-title::after {
+  content: '';
+  display: block;
+  height: 4px;
+  background: var(--verde);
+  border-radius: 2px;
+  margin-top: 6px;
+}
+
+/* ---------- ÍCONES DO EVENTO ---------- */
+.icon-evento {
+  font-size: 2.5rem;
+}
+
+/* ---------- CARDS DE KIT ---------- */
+.card-kit {
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.card-kit:hover {
+  transform: translateY(-6px);
+  border-color: var(--verde);
+}
+
+.card-kit .card-header {
+  background: var(--azul);
+  color: var(--amarelo);
+  font-weight: 700;
+  font-size: 1.1rem;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+/* Card em destaque (Kit Premium) */
+.card-destaque {
+  border-color: var(--verde) !important;
+  border-width: 3px !important;
+}
+
+/* ---------- PREÇO ---------- */
+.preco {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--verde);
+}
+
+/* ---------- BADGE AMARELO ---------- */
+.badge-amarelo {
+  background: var(--amarelo);
+  color: var(--azul);
+  font-size: 0.7rem;
+  padding: 4px 10px;
+}
+
+/* ---------- SEÇÃO FORMULÁRIO ---------- */
+.bg-form {
+  background-color: #f0f6ff;
+}
+
+/* ---------- FOOTER ---------- */
+footer {
+  background: var(--azul);
+  color: white;
+  padding: 30px 0;
+}
+
+footer a {
+  color: var(--amarelo);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
