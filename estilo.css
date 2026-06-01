@@ -135,3 +135,45 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+/* ========== BOTÃO VOLTAR AO TOPO ========== */
+#btnVoltarTopo {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  border: none;
+  background-color: var(--verde);
+  color: white;
+  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 50%;
+  font-size: 20px;
+  box-shadow: 0px 4px 6px rgba(0,0,0,0.3);
+  transition: background-color 0.3s;
+}
+
+#btnVoltarTopo:hover {
+  background-color: var(--azul); 
+}
+
+/* ========== MEDIA QUERIES (Responsividade) ========== */
+
+@media (max-width: 768px) {
+  
+  .section-title {
+    font-size: 1.5rem; 
+  }
+
+  iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  #btnVoltarTopo {
+    padding: 10px 15px;
+    font-size: 16px;
+    bottom: 15px;
+    right: 15px;
+  }
+}
