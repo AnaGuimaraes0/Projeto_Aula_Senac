@@ -14,12 +14,12 @@ body {
 
 .navbar-custom .navbar-brand,
 .navbar-custom .nav-link {
-  color: var(--amarelo) !important;
+  color: var(--amarelo);
   font-weight: 600;
 }
 
 .navbar-custom .nav-link:hover {
-  color: white !important;
+  color: white;
 }
 
 
@@ -91,13 +91,13 @@ body {
   color: var(--amarelo);
   font-weight: 700;
   font-size: 1.1rem;
-  border-radius: 10px 10px 0 0 !important;
+  border-radius: 10px 10px 0 0;
 }
 
 /* Card em destaque (Kit Premium) */
 .card-destaque {
-  border-color: var(--verde) !important;
-  border-width: 3px !important;
+  border-color: var(--verde);
+  border-width: 3px;
 }
 
 /* ---------- PREÇO ---------- */
